@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background-color: rgb(0, 0,102);
+}
+ul {
+    list-style: none;
+    background-color: rgb(0, 0,102);
+    text-align:right ;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: rgb(192,192,192);
+    text-decoration: none;
+    text-align: center;
+}
+ul li .haha li {
+    display: block;
+    background: white;
+    margin: 2px 0px ;
+    width: 250px;
+    border-bottom: 2px solid rgb(192,192,192);
+    border-bottom-style: dotted ;
+}
+ul li .haha {
+    background: #FFF;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: rgb(255,69,0);
+
+}
+ul li:hover ul.haha {
+    display: block;
+}
+ul #l1 {
+    float:left
+}
+div p {
+    color:rgb(192,192,192);
+
+}
+div {
+    width: 950px;
+    padding-left: 25px ;
+}
